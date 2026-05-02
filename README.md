@@ -32,6 +32,6 @@ Busco desenvolver sistemas performáticos, organizados e escaláveis, seguindo b
 
 ## 📌 Status
 
-🚧 Em andamento
+
 
 ---
