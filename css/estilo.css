@@ -1,0 +1,42 @@
+/**Geral **/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/**Inicialização**/
+
+.center{
+    width: 1280px;
+    padding: 0 2%;
+    margin: auto;
+}
+header{
+    background-color: #000000;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.w50{
+    width: 50%;
+}
+.w25{
+    width: 25%;
+}
+.logo{
+    color: white;
+}
+
+
+
+.mobile{
+    display: none;
+}
+
