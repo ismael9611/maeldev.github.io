@@ -13,7 +13,8 @@
     margin: auto;
 }
 header{
-    background-color: #000000;
+    padding: 10px 0;
+    background-color: #0B1F3A   ;
 }
 .left{
     float: left;
@@ -29,13 +30,119 @@ header{
 }
 .w25{
     width: 25%;
+    padding: 0 10px;
 }
+
 .logo{
+    font-size: 18px;
     color: white;
+    padding: 16px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    font-size: 20px;
+    box-shadow: 5px 8px 8px #043c9c;
+}
+nav li{
+    display: inline-block;
+    padding: 16px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.banner_principal{
+    width: 100%;
+    height: 600px;
+}
+.sobre{
+    padding: 20px;
+    background-color: #212121;
+}
+.bg-autor{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.sobre h2{
+    color: #4A8CFF;
+    padding: 10px 0;
+}
+.sobre p{
+    color: #A7A7A7;
+    font-size: 16px;
 }
 
-
-
+.especialidades{
+    background-color: #0B1F3A;
+    padding: 20px;
+}
+.especialidades h2{
+    color: #4A8CFF;
+    padding: 10px 0;
+}
+.especialidades .i-php{
+    color: #043c9c;
+}
+.especialidades .i-html{
+    color: #FF6D2D;
+}
+.especialidades .i-css{
+    color: #4A8CFF;
+}
+.especialidades .i-js{
+    color: #FFDE21;
+}
+.especialidades i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.especialidades h4{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    color: #A7A7A7;
+}
+.especialidades p{
+    color: #A7A7A7;
+    text-align: justify;
+}
+.servico{
+    background-color: #212121;
+    padding: 20px;
+}
+.servico h2{
+    color: #4A8CFF;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.servico ul{
+    list-style-type: none;
+    color: #A7A7A7;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.servico li{
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+footer{
+    padding: 20px;
+    background-color: #0B1F3A;
+    color: white;
+    text-align: center;
+}
 .mobile{
     display: none;
 }
